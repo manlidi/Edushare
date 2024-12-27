@@ -6,6 +6,7 @@ import { FeaturesComponent } from './components/features/features.component';
 import { CoursesComponent } from './components/courses/courses.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { PricingComponent } from './components/pricing/pricing.component';
 
 @Component({
   selector: 'app-root',
@@ -17,6 +18,7 @@ import { FooterComponent } from './components/footer/footer.component';
     FeaturesComponent,
     CoursesComponent,
     TestimonialsComponent,
+    PricingComponent,
     FooterComponent
   ],
   standalone: true
